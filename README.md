@@ -1,17 +1,43 @@
->**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
+# Udacity US Bikeshare Data Project
 
-### Date created
-Include the date you created this project and README file.
-
-### Project Title
-Replace the Project Title
+## Exploring US Bikeshare Data
 
 ### Description
-Describe what your project is about and what it does
+In this project I used Python and descriptive statistics to explore data associated with bike share systems with three major cities in the United States - Chicago, New York City and Washington
 
-### Files used
-Include the files used
+### Statistical Insights
+1. Popular travel times:
+    - common months
+    - common days of the week
+    - common hours of the day
+2. Popular stations and trips:
+    - common start station
+    - common end station
+    - common trips (start to end)
+3. Trip duration:
+    - total travel time
+    - average travel time
+4. User and customer information:
+    - counts of each user type
+    - counts of eac gender
+    - earliest, most recent and most common years of birth
 
-### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+### Software Required
+To run this you will require:
+- Python 3, NumPy and Pandas installed using Anaconda
+
+### Files
+In order to run the python script, you will need the following files:
+- chicago.csv;
+- new_york_city.csv; and
+- washington.csv
+
+### Resources
+The following blog posts, forums and webpages were consulted:
+- Udacity Practise Solutions
+- [w3 schools - the idxmax() method](https://www.w3schools.com/python/pandas/ref_df_idxmax.asp#:~:text=The%20idxmax()%20method%20returns,maximum%20value%20for%20each%20row.)
+- [stackoverflow - how to make user input not case sensitive](https://stackoverflow.com/questions/50192965/how-to-make-user-input-not-case-sensitive)
+- [geeksforgeeeks - how to perform countif functions in python](https://www.geeksforgeeks.org/how-to-perform-a-countif-function-in-python/)
+- [stackoverflow - user input from defined list in python](https://stackoverflow.com/questions/66833367/user-input-from-defined-list-in-python)
+
 
