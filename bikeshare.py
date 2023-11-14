@@ -175,11 +175,8 @@ def user_stats(df):
     if ('Birth Year') not in df:
         print('Sorry! We don\'t have birth year data for Washington')
     else: 
-        yob = df['Birth Year'].values
-        mostrecent_yob = yob.max()
-        earliest_yob = yob.min()
-        print('The most recent year of birth is ', mostrecent_yob)
-        print('The earliest year of birth is ', earliest_yob)
+        print('The most recent year of birth is {}'.format(df['Birth Year'].min()))
+        print('The earliest year of birth is {}'.format(df['Birth Year'].max()))
         print('The most common year of birth is {}'.format(df['Birth Year'].mode()[0]))
          
         
