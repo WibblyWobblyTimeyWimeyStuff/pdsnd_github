@@ -188,7 +188,7 @@ def user_stats(df):
 
     
 def raw_data(df):
-    """ View first few rows of data """
+    """ View first few rows of data - based on user input """
     
     while True: 
         view_data = input('Would you like to view a few rows of the raw data? (yes or no): ').lower()
