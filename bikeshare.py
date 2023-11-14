@@ -109,12 +109,10 @@ def station_stats(df):
     start_time = time.time()
 
     # TO DO: display most commonly used start station
-    common_startstation = df['Start Station'].mode()[0]
-    print('The station at which the most number of trips commence is: ', common_startstation)
+    print('The station at which the most number of trips commence is: {}'.format(df['Start Station'].mode()[0]))
 
     # TO DO: display most commonly used end station
-    common_endstation = df['End Station'].mode()[0]
-    print('The station at which the most number of trips end is: ', common_endstation)
+    print('The station at which the most number of trips end is: {}'.format(df['End Station'].mode()[0]))
 
     # TO DO: display most frequent combination of start station and end station trip
     stationcombination = 'from ' + df['Start Station'] + ' to ' + df['End Station']
@@ -175,11 +173,8 @@ def user_stats(df):
     if ('Birth Year') not in df:
         print('Sorry! We don\'t have birth year data for Washington')
     else: 
-        yob = df['Birth Year'].values
-        mostrecent_yob = yob.max()
-        earliest_yob = yob.min()
-        print('The most recent year of birth is ', mostrecent_yob)
-        print('The earliest year of birth is ', earliest_yob)
+        print('The most recent year of birth is {}'.format(df['Birth Year'].min()))
+        print('The earliest year of birth is {}'.format(df['Birth Year'].max()))
         print('The most common year of birth is {}'.format(df['Birth Year'].mode()[0]))
          
         
