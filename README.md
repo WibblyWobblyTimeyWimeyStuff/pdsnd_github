@@ -30,7 +30,7 @@ To run this you will require:
 In order to run the python script, you will need the following files:
 - chicago.csv;
 - new_york_city.csv; and
-- washington.csv
+- washington.csv.
 
 ### Resources
 The following blog posts, forums and webpages were consulted:
@@ -40,4 +40,5 @@ The following blog posts, forums and webpages were consulted:
 - [geeksforgeeeks - how to perform countif functions in python](https://www.geeksforgeeks.org/how-to-perform-a-countif-function-in-python/)
 - [stackoverflow - user input from defined list in python](https://stackoverflow.com/questions/66833367/user-input-from-defined-list-in-python)
 
+Please note that the files were provided by Udacity.
 
